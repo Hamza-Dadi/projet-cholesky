@@ -1,0 +1,16 @@
+# Fichiers compilés Java
+*.class
+bin/
+3_Application_Java/bin/
+
+# Fichiers temporaires des éditeurs et OS
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*~
+
+# IDE
+.vscode/
+.idea/
+*.iml
