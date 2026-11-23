@@ -31,8 +31,8 @@
 ## 🚀 Démonstration en Ligne (GitHub Pages)
 
 Accédez directement à l'application Web sans aucune installation :  
-👉 **[Lancer le Solveur Web de Cholesky](https://hamza-dadi.github.io/)** *(ou via le fichier local `index.html`)*  
-👉 **[Lancer l'Application de Prévision de Dépenses](https://hamza-dadi.github.io/prevision_depenses.html)** *(ou via `prevision_depenses.html`)*
+👉 **[Lancer le Solveur Web de Cholesky](https://hamza-dadi.github.io/projet-cholesky/)** *(ou via le fichier local `index.html`)*  
+👉 **[Lancer l'Application de Prévision de Dépenses](https://hamza-dadi.github.io/projet-cholesky/projet-cholesky/prevision_depenses.html)** *(ou via `prevision_depenses.html`)*
 
 ---
 
@@ -67,7 +67,8 @@ La matrice de Gram $G$ est garantie symétrique définie positive :
 3. **Factorisation de Cholesky :**
    * Première colonne : $b_{11} = \sqrt{a_{11}}$, $b_{i1} = rac{a_{i1}}{b_{11}}$ ($i = 2, \dots, n$)
    * Colonnes suivantes ($p = 2, \dots, n$) :
-     $$b_{pp} = \sqrt{a_{pp} - \sum_{k=1}^{p-1} b_{pk}^2}, \quad b_{ip} = rac{1}{b_{pp}} \left( a_{ip} - \sum_{k=1}^{p-1} b_{ik} b_{pk} ight) \; (i > p)$$
+     $$b_{pp} = \sqrt{a_{pp} - \sum_{k=1}^{p-1} b_{pk}^2}, \quad b_{ip} = rac{1}{b_{pp}} \left( a_{ip} - \sum_{k=1}^{p-1} b_{ik} b_{pk} 
+ight) \; (i > p)$$
 4. **Matrices Triangulaires :** Construction de $B$ et de sa transposée $B^T$.
 5. **Descente (Substitution avant) :** Résolution de $B \cdot Y = b$.
 6. **Remontée (Substitution arrière) :** Résolution de $B^T \cdot X = Y$.
